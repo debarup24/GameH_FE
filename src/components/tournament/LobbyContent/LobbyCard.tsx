@@ -1,6 +1,6 @@
 import React from "react";
 import ActionBTN from "@/components/ui/Button/ActionBTN";
-import { Clock } from "lucide-react"; // Assuming you use lucide-react
+import { Clock } from "lucide-react";
 
 interface LobbyCardProps {
   lobbyNumber: number;

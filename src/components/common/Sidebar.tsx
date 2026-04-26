@@ -17,7 +17,7 @@ const SIDEBAR_ITEMS = [
     name: "My Tournament",
     icon: Trophy,
     color: "#32a852",
-    href: "/my-tournament",
+    href: "/tournament/1",
   },
   { name: "Social", icon: UsersRound, color: "#32a852", href: "/social" },
   {
