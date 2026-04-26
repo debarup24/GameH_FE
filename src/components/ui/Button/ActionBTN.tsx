@@ -39,7 +39,7 @@ export default function ActionBTN({
   };
 
   const variantStyles = {
-    brand: "bg-gradient-to-r from-indigo-500 to-indigo-800 text-white",
+    brand: "bg-gradient-to-r from-green-400 to-green-600 text-white",
     primary: "bg-white text-slate-800 hover:bg-slate-50",
     secondary:
       "bg-white text-orange-500 border border-orange-500 hover:bg-orange-50",

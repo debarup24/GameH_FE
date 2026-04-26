@@ -14,8 +14,9 @@ const OverviewTab = () => {
           <OverviewDetails />
           <div className="max-lg:hidden">
             <RoundsandSchedule />
+            <MatchJoinInstruction />
           </div>
-          <MatchJoinInstruction />
+
           <div className="lg:hidden flex flex-col gap-6">
             <PrizePool />
             <RoundsandSchedule />
