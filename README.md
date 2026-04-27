@@ -1,3 +1,36 @@
+# Gamehok Assignment
+
+- [🔗 Live Preview](https://game-h-fe.vercel.app/home)
+
+- **Next.js + TypeScript + TailwindCSS + Lucide Icons**
+
+## Coding Approach
+
+- Focused on **Code Reusability by creating reusable components** like TournamentCard.tsx .
+
+```
+src/components/Home/TournamentCard.tsx
+
+src/components/tournament/LobbyContent/LobbyCard.tsx
+```
+
+- Instead of using 3rd party UI library (like shadcnUI) I created similar in-house UI components
+
+```
+// file
+src/components/ui/Button/ActionBTN.tsx
+
+// How to use ?
+  <ActionBTN
+  size="sm"
+  icon={icon}
+  iconSize={16}
+  variant="brand">
+  VIEW ALL
+ </ActionBTN>
+
+```
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
