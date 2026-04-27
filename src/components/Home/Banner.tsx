@@ -14,6 +14,7 @@ const Banner = () => {
               Be the Gamehok’s
             </span>
             <span className="text-[#FFCC4D] font-bold text-lg sm:text-2xl">
+              {" "}
               Social Star
             </span>
           </div>

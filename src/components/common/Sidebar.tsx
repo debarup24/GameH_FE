@@ -3,6 +3,7 @@ import {
   Home,
   HomeIcon,
   MessageCircleMore,
+  Power,
   Trophy,
   UsersRound,
 } from "lucide-react";
@@ -70,7 +71,13 @@ const Sidebar = () => {
         </div>
 
         <div className="flex">
-          <button>Auth</button>
+          <button
+            className="flex group items-center justify-center gap-2 text-[#A8A8A8] text-[15px] 
+              hover:text-white cursor-pointer"
+          >
+            <Power className="text-red-600 size-5" />
+            Logout
+          </button>
         </div>
       </aside>
 
