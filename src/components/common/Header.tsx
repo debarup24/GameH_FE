@@ -3,7 +3,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className=" sticky top-0 z-40 h-[58px] sm:h-20 flex items-center justify-between lg:justify-end px-4 sm:px-6 bg-[#001208] lg:shadow-[0px_1px_2px_0px_#FFFFFF40]">
+    <header className=" sticky top-0 z-40 h-14 sm:h-20 flex items-center justify-between lg:justify-end px-4 sm:px-6 bg-[#001208] lg:shadow-[0px_1px_2px_0px_#FFFFFF40]">
       <div className="flex flex-row-reverse lg:flex-row items-center gap-3 lg:gap-4 w-full lg:w-auto justify-between">
         <div className="flex items-center gap-3 sm:gap-4">
           <a
