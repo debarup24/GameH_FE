@@ -3,7 +3,7 @@ import React from "react";
 
 const TournamentBanner = () => {
   return (
-    <div className="h-[185px] sm:h-[240px] md:h-[284px] lg:h-[304px] relative overflow-hidden">
+    <div className="h-[185px] sm:h-60 md:h-71 lg:h-76 relative overflow-hidden">
       <img
         className="w-full h-full object-cover lg:rounded-lg lg:border border-white"
         src="/TournamentThumb2.jpg"
@@ -12,7 +12,7 @@ const TournamentBanner = () => {
       <div className="absolute bottom-3 md:bottom-7 left-3 md:left-5 flex items-center text-white bg-[#001208CC] opacity-80 py-1 px-2 font-medium sm:font-semibold rounded-2xl text-[10px] sm:text-xs gap-1">
         Ongoing
       </div>
-      <div className="absolute bottom-3 md:bottom-7 right-3 md:right-5 flex items-center text-white bg-[#001208CC] opacity-80 py-1 px-2 font-medium sm:font-semibold rounded-2xl text-[10px] sm:text-[12px] sm:leading-[16px] gap-1">
+      <div className="absolute bottom-3 md:bottom-7 right-3 md:right-5 flex items-center text-white bg-[#001208CC] opacity-80 py-1 px-2 font-medium sm:font-semibold rounded-2xl text-[10px] sm:text-[12px] sm:leading-4 gap-1">
         <Users className="text-white size-3 mr-1" /> 864/864
       </div>
       {/* refactor - global isMobile */}
