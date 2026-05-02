@@ -14,11 +14,11 @@ const Organizer = () => {
             <div>
               <div className="flex gap-[5px] mb-1.5 mt-1">
                 <img
-                  className="w-[19px] h-[20px] object-cover rounded"
+                  className="w-[19px] h-5 object-cover rounded"
                   src="/GSProfileLogo.png"
                   alt="profilr logo"
                 />
-                <h1 className="font-semibold text-[16px] leading-[22px] text-[#ECECEC]">
+                <h1 className="font-semibold text-[16px] leading-5.5 text-[#ECECEC]">
                   GS ESPORTS
                 </h1>
               </div>
