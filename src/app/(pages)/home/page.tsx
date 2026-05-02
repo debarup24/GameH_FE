@@ -25,7 +25,7 @@ const homePage = () => {
   return (
     <div
       className="
-            pl-0 lg:pl-[210px] xl:pl-[248px]
+            pl-0 lg:pl-[210px] xl:pl-62
             flex flex-col w-full min-h-dvh
             max-sm:pb-16 max-lg:pb-16
           "
@@ -78,7 +78,7 @@ const homePage = () => {
           </div>
           <div className="mb-5 sm:mb-6 lg:mb-12 w-full">
             <div className="flex justify-between items-center mb-4 sm:mb-6">
-              <h2 className="text-[16px] leading-[20px] sm:text-[24px] sm:leading-[32px] font-semibold sm:font-bold">
+              <h2 className="text-[16px] leading-5 sm:text-[24px] sm:leading-8 font-semibold sm:font-bold">
                 Compete in Daily Battles
               </h2>
             </div>
@@ -89,7 +89,7 @@ const homePage = () => {
           </div>
         </div>
         {/* Right part*/}
-        <div className="w-full lg:w-95 xl:w-[422px] px-4 sm:px-8 lg:px-6 xl:px-10 py-5 sm:py-6 lg:py-12 shadow-[inset_1px_0px_0px_0px_#FFFFFF1A]">
+        <div className="w-full lg:w-95 xl:w-105 px-4 sm:px-8 lg:px-6 xl:px-10 py-5 sm:py-6 lg:py-12 shadow-[inset_1px_0px_0px_0px_#FFFFFF1A]">
           <div className="mb-5 sm:mb-6 lg:mb-10">
             <div className="flex justify-between items-center mb-4 sm:mb-6">
               <h2 className="text-[16px] pt-5 leading-5 sm:text-[18px] sm:leading-6 font-semibold sm:font-bold mb-6">
